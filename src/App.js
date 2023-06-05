@@ -63,7 +63,9 @@ function App() {
                   onChange={(e) =>
                     handleInputChange(e, aspek.key, mahasiswa.key)
                   }
-                  className=" py-2 px-3 border border-gray-300 rounded w-full"
+                  required
+                  max={10}
+                  className="py-2 px-3 border border-gray-300 rounded w-full"
                 />
               </div>
             ))}
